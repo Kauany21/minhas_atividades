@@ -1,0 +1,117 @@
+/* 🎃 Estilo geral */
+body {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+#cabecalho {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #8b0000;
+}
+
+#cabecalho h1 {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+#cabecalho a {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#cabecalho a:hover {
+  color: #ff0000;
+}
+
+/* Conteúdo principal */
+#conteudo {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Galeria */
+.galeria img {
+  margin: 10px;
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+/* Seção de perfil */
+.perfil {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.perfil h3 {
+  color: #ff0000;
+}
+
+.perfil ul {
+  list-style: none;
+  padding: 0;
+}
+
+.perfil li {
+  padding: 5px 0;
+}
+
+/* Destaques e eventos */
+.bloco {
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.destaque {
+  background-color: #330000;
+  border: 2px solid #ff0000;
+}
+
+.secundario {
+  background-color: #262626;
+  border: 2px solid #8b0000;
+}
+
+/* Rodapé */
+#rodape {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #8b0000;
+}
+
+#rodape p {
+  margin: 5px 0;
+}
+
+/* Efeitos extras */
+a,
+li,
+h1,
+h2,
+h3,
+p {
+  transition: 0.3s ease;
+}
+
+h2,
+h3 {
+  color: #ff3333;
+}
