@@ -1,0 +1,26 @@
+body{
+background-color: blueviolet;
+}
+
+
+.header{
+background-color: blue;
+color:antiquewhite;
+text-align: center;
+padding: 10px;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5xp;
+    border: 10xp
+
+}
+
+#caixa1 {
+background-color: aquamarine;
+border: 2px solid blue
+
+}
